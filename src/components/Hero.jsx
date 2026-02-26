@@ -2,7 +2,8 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='mx-72 my-26  '>
+    <section className='mx-72  my-26 '>
+        
         <h1 className=' text-2xl font- text-zinc-900'>
             Philipa  Yeboah
         </h1>
@@ -27,14 +28,31 @@ const Hero = () => {
             Projects
         </p>
         <div className='flex flex-col space-y-4 mt-2 text-lg'>
-           <span className='flex items-center  gap-3'> <a className='hover:underline' href="">Nika ↗</a><p className='text-zinc-500  text-md'>A goal  tracking web app designed to help users stay motivated and track progress .</p></span>
-           <span className='flex items-center gap-3'> <a className='hover:underline' href="">DisalApp ↗</a> <p className='text-zinc-500  text-md'>An internal management web app built to streamline  workflows for a research company.</p></span>
-           <span className='flex items-center gap-3'> <a className='hover:underline'href="">WeatherApp ↗</a> <p className='text-zinc-500  text-md'>A simple and responsive weather app that displays real-time weather information .</p></span>
-            <span className='flex items-center gap-3'> <a className='hover:underline' href="">AnaafoSpaces ↗</a> <p className='text-zinc-500  text-md'>A modern website for a space rental company, showcasing available spaces .</p></span>
+            <span className='flex items-center  gap-3'> 
+                <a className='hover:underline' href="" target='_blank'>Nika ↗</a>
+                <p className='text-zinc-500  text-md'>A goal  tracking web app designed to help users stay motivated and track progress .
+                </p>
+            </span>
+            <span className='flex items-center gap-3'> 
+                <a className='hover:underline' href="https://disal-manager.vercel.app/" target='_blank'>DisalApp ↗</a> 
+                <p className='text-zinc-500  text-md'>An internal management web app built to streamline  workflows for a research company.
+                </p>
+            </span>
+            <span className='flex items-center gap-3'> 
+                <a className='hover:underline'href="" target='_blank'>WeatherApp ↗</a> 
+                <p className='text-zinc-500  text-md'>A simple and responsive weather app that displays real-time weather information .
+                </p>
+            </span>
+            <span className='flex items-center gap-3'> 
+                <a className='hover:underline' href="https://anaafospaces.netlify.app/" target='_blank'>AnaafoSpaces ↗</a> 
+                <p className='text-zinc-500  text-md'>A modern website for a space rental company, showcasing available spaces .
+                </p>
+            </span>
             
 
             
         </div>
+        
     </section>
   )
 }
